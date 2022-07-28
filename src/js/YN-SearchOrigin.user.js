@@ -407,7 +407,7 @@ const
     
     get_search_info = () => {
         const
-            site_link = document.querySelector( 'a[data-ylk="rsec:detail;slk:banner;"]' );
+            site_link = document.querySelector( 'main[id="contents"] div[id="contentsWrap"] > article > header > div > div:last-child > a' );
         
         if ( ! site_link ) {
             return null;
